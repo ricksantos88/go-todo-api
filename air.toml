@@ -1,0 +1,7 @@
+# air.toml
+root = "." 
+
+[build]
+cmd = "go build -o ./bin/main ."
+wait_delay = "1s"
+watch = ["./"]
