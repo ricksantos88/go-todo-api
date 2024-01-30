@@ -3,3 +3,5 @@ go.sum
 tmp/
 tmp/main.exe
 tmp/build-errors.log
+tmp/build-errors.log
+tmp/main.exe
