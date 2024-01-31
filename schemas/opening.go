@@ -2,12 +2,9 @@ package schemas
 
 import (
 	"time"
-
-	"gorm.io/gorm"
 )
 
 type Opening struct {
-	gorm.Model
 	Role     string
 	Company  string
 	Location string
