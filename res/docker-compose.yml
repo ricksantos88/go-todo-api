@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  meu_mysql:
+    image: mysql:latest
+    container_name: todos-db
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: mysql
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./dados_mysql:/var/lib/mysql
