@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func ListOpeningsHandler(ctx *gin.Context) {
+func ShowTodoHandler(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "GET openings",
+		"msg": "GET opening",
 	})
 }

@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func ShowOpeningHandler(ctx *gin.Context) {
+func CreateTodoHandler(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "GET opening",
+		"msg": "POST opening",
 	})
 }

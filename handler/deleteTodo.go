@@ -6,8 +6,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func UpdateOpeningHandler(ctx *gin.Context) {
+func DeleteTodoHandler(ctx *gin.Context) {
 	ctx.JSON(http.StatusOK, gin.H{
-		"msg": "PUT opening",
+		"msg": "DELETE opening",
 	})
 }

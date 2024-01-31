@@ -9,11 +9,11 @@ func initializeOpeningRoutes(router *gin.RouterGroup) {
 
 	v1 := router
 	{
-		v1.GET("/opening", handler.ShowOpeningHandler)
-		v1.POST("/opening", handler.CreateOpeningHandler)
-		v1.PUT("/opening", handler.UpdateOpeningHandler)
-		v1.DELETE("/opening", handler.DeleteOpeningHandler)
-		v1.GET("/openings", handler.ListOpeningsHandler)
+		v1.GET("/todo", handler.ShowTodoHandler)
+		v1.POST("/todo", handler.CreateTodoHandler)
+		v1.PUT("/todo", handler.UpdateTodoHandler)
+		v1.DELETE("/todo", handler.DeleteTodoHandler)
+		v1.GET("/todos", handler.ListTodosHandler)
 	}
 
 }
